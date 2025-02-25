@@ -1,0 +1,32 @@
+.hidden{
+    display: none;
+}
+
+body {
+    background-image: url(https://github.com/Rounakgupta2305/Weather-App-using-ReactJs/blob/main/src/Moon.png?raw=true);
+    backdrop-filter: blur(10px);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+  }
+  
+.container {
+    
+    margin-top: 200px;
+    border: 1px solid black;
+    padding: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+}
+.display {
+    font: optional;
+}
